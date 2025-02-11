@@ -8,13 +8,13 @@ class Pedido:
         if self.entregador_aceitou is None:
             self.entregador_aceitou = entregador
             return True
-        return False  # Retorna False se outro entregador tentar aceitar
+        return False  
 
 pedido = Pedido()
 
 @given(u'que o restaurante "Sabor Caseiro" enviou um pedido')
 def step_given_pedido_enviado(context):
-    context.pedido = Pedido()  # Criamos um novo pedido no contexto
+    context.pedido = Pedido()  
 
 @when(u'o entregador "João" aceita a entrega')
 def step_when_entregador_joao_aceita(context):

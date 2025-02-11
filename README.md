@@ -3,7 +3,7 @@
 &emsp;&emsp;O objetivo deste repositório é apresentar o mapa de Business Drivers para pedidos no app dos entregadores da Rappi. Os seguintes direcionadores de negócio foram considerados:  
 
 - Evitar a duplicidade de corrida, garantindo que um pedido seja aceito por apenas um entregador.  
-- Monitorar a taxa de pedidos que ultrapassam o prazo de entrega, estabelecendo um limite aceitável.  
+- A taxa de pedidos que ultrapassam o prazo de entrega deve ser <= 30%.
 
 &emsp;&emsp;O mapa foi criado utilizando a ferramenta Structurizr com o seguinte código:  
 

@@ -24,10 +24,10 @@ def step_when_calcular_atrasados(context):
 
 @when(u'o sistema calcula a taxa de pedidos que excederam o tempo limite')
 def step_when_calcula_taxa_atrasos(context):
-    # Agora usando o método da classe Pedidos para calcular os atrasos
+    
     context.taxa_atrasos = context.pedidos.calcular_pedidos_atrasados()
 
 @then(u'a porcentagem deve ser exibida e comparada com o limite aceitável')
 def step_then_compara_taxa_atrasos(context):
-    limite_aceitavel = 30  # Exemplo de limite aceitável (10%)
+    limite_aceitavel = 30  
     assert context.taxa_atrasos <= limite_aceitavel, f"Taxa de atrasos {context.taxa_atrasos}% é maior que o limite aceitável de {limite_aceitavel}%"
