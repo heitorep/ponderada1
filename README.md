@@ -26,13 +26,14 @@ workspace "Rappi Entregas" "Mapa dos Business Drivers para o app dos entregadore
     }
     
 }
+```
 
 <div align="center">
   <sub>Figura 1 - Diagrama </sub>
   <img src="./img/structurizr.png" width="100%" alt="Structurizr">
   <sup>Fonte: O autor (2025)</sup>
 </div>
-```
+
 
 # Estratégia e Massa de Testes
 
